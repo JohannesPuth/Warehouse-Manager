@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-# Implement the following three functions according to the specification.
-
 def add_stock(warehouse, product):
     if product in warehouse:
         warehouse[product] +=1
@@ -21,10 +19,6 @@ def remove_stock(warehouse, product):
 
 def get_stock(warehouse, product):
     return warehouse.get(product, 0)
-
-# The following code is just here as an example for you to try your
-# implementation. Uncomment it and run it if you want. Feel free to modify it.
-# However, make sure it doesn't break your solution when submitting.
 
 warehouse = { "A": 10, "B": 15, "C": 1, "D": 2 }
 
